@@ -24,6 +24,20 @@ export default function Home() {
             <p className="lead">
               Dengan menggunakan aplikasi ini, Anda dapat memasukkan link ujian dan ujian anda akan terlindungi dari kecurangan.
             </p>
+            <ul className="fw-semibold">
+              <li>Pastikan anda memasukkan link ujian yang benar</li>
+              <li>Anda akan memasuki mode fullscreen</li>
+              <li>Jika anda keluar dari tab ujian sebanyak 2 kali, maka akan terblokir</li>
+              <li>Anda akan diarahkan ke halaman utama dalam 5 detik</li>
+            </ul>
+            <style>
+              {`
+                ul {
+                  list-style-type: '✅ ';
+                  font-family: 'Montserrat', sans-serif;
+                }
+              `}
+            </style>
           </div>
         </div>
       </div>
