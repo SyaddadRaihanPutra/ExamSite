@@ -191,39 +191,20 @@ export default function Exam() {
         >
           {!fullscreenEnabled && (
             <div className="blocked-text d-flex flex-column justify-content-center align-items-center">
-              <h1
-                className="text-center"
-                style={{
-                  position: "absolute",
-                  zIndex: "99999",
-                  color: "red",
-                  background: "white",
-                  padding: "20px",
-                  borderRadius: "10px",
-                  border: "2px solid red",
-                  fontSize: "2.5rem",
-                  marginTop: "60vh",
-                  translate: "transform(-50%, -50%)",
-                  fontWeight: "bold",
-                  margin: "20px",
-                }}
-              >
-                ANDA DIBLOKIR!
-              </h1>
               <p
                 style={{
                   position: "absolute",
                   zIndex: "99999",
                   color: "red",
                   background: "white",
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   marginTop: "750px",
                   translate: "transform(-50%, -50%)",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
               >
-                akan diarahkan ke halaman utama
+                Anda diblokir, akan diarahkan ke halaman utama
                 <p>dalam 5 detik</p>
               </p>
             </div>
